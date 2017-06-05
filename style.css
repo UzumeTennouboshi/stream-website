@@ -1,0 +1,90 @@
+html {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+head {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #bbabff;
+    color: #443333;
+    line-height: 60px;
+    box-shadow: 0px 2px 5px black;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 42;
+}
+
+.avatar {
+    margin: 20px;
+}
+
+.container {
+    columns: auto;
+}
+
+.menu {
+    list-style: none;
+    background-color: #cc87dd;
+    padding: 0px 20px;
+    transition: 0.1s;
+    border-radius: 0px;
+}
+.menu:hover {
+    background-color: #9989ff;
+    padding: 0px 70px;
+}
+
+.block {
+    width: 50vw;
+    min-height: 8em;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.block-head {
+    background-color: rgba(255,255,255,0.25);
+}
+
+.fleft { 
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    transition: 0.1s;
+}
+.button:hover {
+    background-color: darkred;
+}
+
+.smol {
+    width: 64px;
+    height: 64px;
+    margin: 20px;
+}
+
+.text-left {
+    text-align: left;
+}
